@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+.ag-select-list .ag-virtual-list-item:hover {
+  background-color: #f0f0f0; /* hover effect */
+  cursor: pointer;
+}
+
+.ag-select-list .ag-virtual-list-item.ag-active-item {
+  background-color: #e0e0ff; /* selected highlight */
+  font-weight: bold;
+}
+
+.react-datepicker-popper {
+  z-index: 9999 !important;
+}

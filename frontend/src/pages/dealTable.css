@@ -1,0 +1,16 @@
+/* Har cell ke right side border */
+.ag-theme-alpine .ag-cell {
+  border-right: 1px solid rgb(209 213 219); /* Tailwind gray-300 */
+}
+
+/* Har header cell ke right side border */
+.ag-theme-alpine .ag-header-cell {
+  border-right: 1px solid rgb(209 213 219);
+}
+
+/* (Optional) Agar top-bottom bhi chahiye to ye use karo */
+.ag-theme-alpine .ag-row {
+  border-bottom: 1px solid rgb(229 231 235); /* Tailwind gray-200 */
+}
+
+
