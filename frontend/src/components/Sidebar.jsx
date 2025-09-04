@@ -23,14 +23,28 @@ export default function Sidebar({ open }) {
 
   return (
     <aside
-      className={`
-        fixed top-20 bottom-4 left-0 bg-white border-r rounded-r-2xl border-gray-200 p-4
-        md:translate-x-0 w-64 transition-transform
-        ${open ? "translate-x-0" : "-translate-x-full"}
-        overflow-y-auto
-      `}
-    >
-      <nav className="space-y-1">
+  className={`
+    fixed top-0 bottom-0 left-0 bg-white border-r  border-gray-200 p-4 z-[999]
+    md:translate-x-0 w-64 transition-transform
+    ${open ? "translate-x-0" : "-translate-x-full"}
+    overflow-y-auto
+  `}
+>
+      <nav className="space-y-2 ">
+
+        <div className="mb-10  mt-2" >
+
+
+          <img
+            src="/leadgen.png"
+            alt="Lead Generate"
+            className="w-50 object-fit"
+           
+          />
+
+          <hr className="text-gray-300 mt-5 "/>
+
+        </div>
         <NavLink to="/dashboard" className={active}>
           <FiHome className="mr-2" /> Dashboard
         </NavLink>
